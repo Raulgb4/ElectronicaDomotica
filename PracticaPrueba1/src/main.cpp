@@ -1,9 +1,8 @@
 /**
- * Blink (Parpadeo infinito) del LED de la placa Arduino UNO
+ * Blink (Parpadeo infinito) de un LED externo a la placa Arduino UNO
  *
- * Enciende el LED durante dos segundos,
+ * Enciende el LED durante un segundo,
  * luego lo apaga durante un segundo, y repite el ciclo.
- * 
 */
 
 /*
@@ -22,7 +21,7 @@ que representa el LED integrado en la placa
 LED_BUILTIN es un valor predefinido que ya 
 indica el número del pin correcto.
 */
-#define LED_PIN LED_BUILTIN // Usamos el LED integrado en la placa
+#define LED_PIN 13 // Usamos el LED integrado en la placa
 
 /*
 La función setup es una función especial de Arduino que
@@ -55,10 +54,10 @@ void loop()
   digitalWrite(LED_PIN, HIGH);
   
   /*
-  Esperar dos segundos (2000 milisegundos) antes de continuar
+  Esperar un segundo (1000 milisegundos) antes de continuar
   Funciona deteniendo la ejecución del programa
   */ 
-  delay(2000);
+  delay(1000);
   
   // Apagar el LED, LOW significa 0 voltios
   digitalWrite(LED_PIN, LOW);
