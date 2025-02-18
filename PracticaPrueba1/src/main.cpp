@@ -21,7 +21,7 @@ que representa el LED integrado en la placa
 LED_BUILTIN es un valor predefinido que ya 
 indica el número del pin correcto.
 */
-#define LED_PIN 13 // Usamos el LED integrado en la placa
+#define LED_PIN 13 // Usamos el LED conectado al pin 13
 
 /*
 La función setup es una función especial de Arduino que
