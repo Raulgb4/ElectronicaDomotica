@@ -30,6 +30,7 @@ se ejecuta solo una vez al inicio del programa
 */
 void setup()
 {
+  // Serial.begin(115200)
   /*
   Configurar el pin 13 (LED) como salida
   para que Arduino lo controle para encender
