@@ -1,4 +1,4 @@
-# 🔴 Práctica de prueba 2: Interruptor LED Arduino
+# 🔴 Práctica de prueba 3: Interruptor LED Arduino
 
 Este proyecto hace que un **LED externo al de Arduino** 
 se quede encendido o apagado al pulsar un pulsador.
