@@ -1,11 +1,5 @@
 /**
- * Lectura de pulsador con mensajes en consola
- *
- * Este programa muestra en la consola (Serial Monitor)
- * el estado del botón SOLO cuando se pulsa o se suelta.
- *
- * OJO MIRAR EL MONITOR Y UPLOAD PORT del platformio.ini porque tiene que coincidir
- * con el usb al que tengas conectado el arduino en el administrador dispositivos
+ * PLANTILLA PARA LA PRÁCTICA 1
  *
  */
 #include "Arduino.h" // Omitir esta línea en TinkerCAD
@@ -34,7 +28,6 @@ void loop()
   estadoActualBoton = digitalRead(PIN_BOTON);
 
   // Verificar si ha pasado suficiente tiempo desde la última lectura (para evitar rebotes y lecturas excesivas)
-  // millis es la cantidad de tiempo que ha pasado desde que el programa empezó a ejecutarse
   if ((millis() - tiempoUltimaLectura) > INTERVALO_LECTURA)
   {
 
